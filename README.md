@@ -5,6 +5,8 @@ References:
 I used Codeslinger’s tutorial website as a reference point, along with GBA hardware docs
 [GB.pdf](https://github.com/user-attachments/files/22233081/GB.pdf)
 
+Languages used: C++
+
 
 
  
