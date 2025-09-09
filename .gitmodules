@@ -1,1 +1,4 @@
 
+[submodule "bootrom/--hardwareinc"]
+	path = bootrom/--hardwareinc
+	url = https://github.com/gbdev/hardware.inc.git
