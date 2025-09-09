@@ -15,29 +15,28 @@ public:
     void ExecuteInstruction();
 
 private:
-    // Registers
-    uint8_t A, F; // Accumulator & Flags
+  
+    uint8_t A, F; 
     uint8_t B, C;
     uint8_t D, E;
     uint8_t H, L;
 
-    uint16_t SP; // Stack Pointer
-    uint16_t PC; // Program Counter
+    uint16_t SP; 
+    uint16_t PC; 
 
-    // Flags bit positions
     enum Flags
     {
-        Z = 7, // Zero Flag
-        N = 6, // Subtract Flag
-        H = 5, // Half Carry Flag
-        C = 4  // Carry Flag
+        Z = 7, // zero
+        N = 6, // Subtract 
+        H = 5, // halfcarry
+        C = 4  //carry
     };
 
-    // Helper functions to get/set flags
+  
     bool GetFlag(Flags flag) const;
     void SetFlag(Flags flag, bool value);
 
-    // Instruction implementations will be added here
+    //instructs
 };
 
-#endif // CPU_H
+#endif 
